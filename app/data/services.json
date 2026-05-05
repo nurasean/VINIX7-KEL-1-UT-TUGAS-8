@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Update Kondisi Barang",
+    "description": "Seller wajib memperbarui kondisi barang secara berkala agar pembeli mendapatkan informasi yang akurat dan terkini."
+  },
+  {
+    "id": 2,
+    "title": "Garansi Video Unboxing",
+    "description": "Buyer dapat mengajukan pengembalian jika barang tidak sesuai dengan menyertakan video unboxing sebagai bukti."
+  },
+  {
+    "id": 3,
+    "title": "Sistem Rating & Trust Seller",
+    "description": "Setiap seller memiliki penilaian berdasarkan pengalaman transaksi untuk membantu buyer memilih dengan lebih percaya diri."
+  }
+]
