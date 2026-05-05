@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Keyboard, Send } from "lucide-react";
-import { sendChatAction } from "../actions";
+import { sendMessageChatAction } from "../actions";
 import MarketplaceShell from "../components/MarketplaceShell";
 import SubmitButton from "../components/SubmitButton";
 
@@ -77,7 +77,7 @@ export default async function ChatPage({ searchParams }) {
               </div>
             </div>
 
-            <form action={sendChatAction} className="mt-10 flex h-[57px] items-center justify-between gap-4 rounded-[20px] bg-[#7C7C7C]/20 px-5">
+            <form action={sendMessageChatAction} className="mt-10 flex h-[57px] items-center justify-between gap-4 rounded-[20px] bg-[#7C7C7C]/20 px-5">
               <div className="flex flex-1 items-center gap-4">
                 <Keyboard className="h-6 w-6 text-[#2176B5]" />
                 <input
